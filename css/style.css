@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+
+background-color: #343A40;
+
+border-bottom: 2px solid #23212138;
+}
+header nav{
+
+width: 60%;
+
+margin: auto;
+}
+header nav ul{
+    
+list-style: none;
+    
+display: flex;
+    
+justify-content: space-between;
+    
+height: 70px;
+    
+align-items: center;
+}
+header nav ul li{
+}
+header nav ul li a{
+    
+text-decoration: none;
+    
+color: #9591A6;
+}
+.background{background-image: url(../images/backgrond.jpeg);background-repeat: no-repeat;width: 100%;background-size: cover;background-position: center;height: 50vh;display: flex;justify-content: space-between;padding: 150px 50px;}
+
+.left-section{
+
+width: 50%;
+
+margin-top: 5%;
+
+margin-left: 5%;
+}
+.left-section h1{
+    
+color: #F8F9F9;
+    
+font-weight: 300;
+}
+.left-section h1 span{
+    
+color: #629162;
+    
+font-size: 28px;
+    
+font-weight: 100;
+}
+.left-section p{
+
+color: #efeeeacc;
+
+font-size: 15px;
+}
+.left-section h4{
+
+font-size: 15px;
+
+font-weight: 100;
+
+color: #ffffffc7;
+}
+.button{
+
+margin-top: 10px;
+}
+.button input{background: #6DBD6B;color: white;border-radius: 10px;padding: 12px 20px;cursor: pointer;border: none;}
+.right-section{
+
+width: 40%;
+
+margin-top: 10px;
+
+margin-right: 10%;
+}
+.form{
+
+background: #6DBD6B;
+
+height: 45vh;
+
+padding: 50px 100px;
+
+width: 50%;
+}
+.form h1{
+    
+color: white;
+    
+font-weight: 100;
+    
+font-size: 20px;
+    
+margin-bottom: 10px;
+}
+.form p{
+    
+font-size: 12px;
+    
+color: #ffffffc2;
+    
+margin-bottom: 20px;
+    
+text-align: left;
+    
+font-weight: normal;
+}
+.form input{
+    
+width: 93%;
+    
+margin: 5px 0;
+    
+padding: 10px;
+    
+border: none;
+}
+.form input[type="submit"]{
+    
+width: 100%;
+    
+background: #529352;
+    
+color: white;
+    
+cursor: pointer;
+}
